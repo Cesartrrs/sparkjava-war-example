@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'cesar_node'}
+    agent {label 'ubuntu'}
     stages {
         stage('download') {
             steps {
